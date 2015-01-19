@@ -1,0 +1,7 @@
+14:51:32 **** Rebuild of configuration Debug for project CF-Problem-1A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o 1A.o "..\\1A.cpp" 
+g++ -o CF-Problem-1A.exe 1A.o 
+
+14:51:33 Build Finished (took 749ms)
+

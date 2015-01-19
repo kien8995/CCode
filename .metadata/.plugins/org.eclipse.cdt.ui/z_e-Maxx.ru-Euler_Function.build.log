@@ -1,0 +1,7 @@
+14:51:41 **** Rebuild of configuration Debug for project z_e-Maxx.ru-Euler_Function ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o z_e-Maxx.ru-Euler_Function.exe main.o 
+
+14:51:42 Build Finished (took 811ms)
+

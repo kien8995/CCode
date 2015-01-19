@@ -1,0 +1,7 @@
+17:06:16 **** Incremental Build of configuration Debug for project UVa-Problem_11292 - Dragon of Loowater ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "UVa-Problem_11292 - Dragon of Loowater.exe" main.o 
+
+17:06:17 Build Finished (took 1s.749ms)
+

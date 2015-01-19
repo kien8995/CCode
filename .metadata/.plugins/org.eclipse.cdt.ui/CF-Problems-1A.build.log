@@ -1,0 +1,14 @@
+23:49:21 **** Incremental Build of configuration Debug for project CF-Problems-1A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\1A.o" "..\\src\\1A.cpp" 
+..\src\1A.cpp: In function 'int main()':
+..\src\1A.cpp:13:34: warning: unknown conversion type character 'l' in format [-Wformat]
+..\src\1A.cpp:13:34: warning: unknown conversion type character 'l' in format [-Wformat]
+..\src\1A.cpp:13:34: warning: unknown conversion type character 'l' in format [-Wformat]
+..\src\1A.cpp:13:34: warning: too many arguments for format [-Wformat-extra-args]
+..\src\1A.cpp:22:22: warning: unknown conversion type character 'l' in format [-Wformat]
+..\src\1A.cpp:22:22: warning: too many arguments for format [-Wformat-extra-args]
+g++ -o CF-Problems-1A.exe "src\\1A.o" 
+
+23:49:21 Build Finished (took 842ms)
+

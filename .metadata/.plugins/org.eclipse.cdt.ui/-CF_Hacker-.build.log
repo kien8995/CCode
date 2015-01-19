@@ -1,0 +1,15 @@
+13:37:39 **** Rebuild of configuration Debug for project -CF_Hacker- ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+In file included from c:\program files\codeblocks\mingw\bin\../lib/gcc/mingw32/4.7.1/include/c++/algorithm:63:0,
+                 from ..\main.cpp:9:
+c:\program files\codeblocks\mingw\bin\../lib/gcc/mingw32/4.7.1/include/c++/bits/stl_algo.h: In instantiation of '_RandomAccessIterator std::__unguarded_partition(_RandomAccessIterator, _RandomAccessIterator, const _Tp&, _Compare) [with _RandomAccessIterator = ant*; _Tp = ant; _Compare = bool (*)(ant&, ant&)]':
+c:\program files\codeblocks\mingw\bin\../lib/gcc/mingw32/4.7.1/include/c++/bits/stl_algo.h:2321:78:   required from '_RandomAccessIterator std::__unguarded_partition_pivot(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = ant*; _Compare = bool (*)(ant&, ant&)]'
+c:\program files\codeblocks\mingw\bin\../lib/gcc/mingw32/4.7.1/include/c++/bits/stl_algo.h:2362:62:   required from 'void std::__introsort_loop(_RandomAccessIterator, _RandomAccessIterator, _Size, _Compare) [with _RandomAccessIterator = ant*; _Size = int; _Compare = bool (*)(ant&, ant&)]'
+c:\program files\codeblocks\mingw\bin\../lib/gcc/mingw32/4.7.1/include/c++/bits/stl_algo.h:5514:4:   required from 'void std::sort(_RAIter, _RAIter, _Compare) [with _RAIter = ant*; _Compare = bool (*)(ant&, ant&)]'
+..\main.cpp:173:30:   required from here
+c:\program files\codeblocks\mingw\bin\../lib/gcc/mingw32/4.7.1/include/c++/bits/stl_algo.h:2289:4: error: invalid initialization of reference of type 'ant&' from expression of type 'const ant'
+c:\program files\codeblocks\mingw\bin\../lib/gcc/mingw32/4.7.1/include/c++/bits/stl_algo.h:2292:4: error: invalid initialization of reference of type 'ant&' from expression of type 'const ant'
+
+13:37:40 Build Finished (took 1s.248ms)
+

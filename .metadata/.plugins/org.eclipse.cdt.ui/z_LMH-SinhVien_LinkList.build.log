@@ -1,0 +1,9 @@
+17:32:33 **** Incremental Build of configuration Debug for project z_LMH-SinhVien_LinkList ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In member function 'void LinkList::print()':
+..\main.cpp:415:8: warning: unused variable 'i' [-Wunused-variable]
+g++ -o z_LMH-SinhVien_LinkList.exe main.o 
+
+17:32:35 Build Finished (took 1s.712ms)
+

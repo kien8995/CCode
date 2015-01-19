@@ -1,0 +1,7 @@
+22:50:56 **** Incremental Build of configuration Debug for project STTT&LT2_XauThuGon ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o STTT&LT2_XauThuGon.exe main.o 
+
+22:50:57 Build Finished (took 1s.560ms)
+

@@ -1,0 +1,21 @@
+10:56:18 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:49:0: warning: "FORGE" redefined [enabled by default]
+..\main.cpp:44:0: note: this is the location of the previous definition
+..\main.cpp:50:0: warning: "FORG" redefined [enabled by default]
+..\main.cpp:45:0: note: this is the location of the previous definition
+..\main.cpp:51:0: warning: "FORV" redefined [enabled by default]
+..\main.cpp:46:0: note: this is the location of the previous definition
+..\main.cpp:74:0: warning: "PI" redefined [enabled by default]
+..\main.cpp:62:0: note: this is the location of the previous definition
+..\main.cpp:80:9: error: 'pair' does not name a type
+..\main.cpp:81:9: error: 'pair' does not name a type
+..\main.cpp:82:9: error: 'vector' does not name a type
+..\main.cpp:83:9: error: 'vector' does not name a type
+..\main.cpp:84:9: error: 'set' does not name a type
+..\main.cpp:85:9: error: 'map' does not name a type
+..\main.cpp:86:9: error: 'map' does not name a type
+
+10:56:19 Build Finished (took 1s.373ms)
+

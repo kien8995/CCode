@@ -1,0 +1,7 @@
+10:47:14 **** Incremental Build of configuration Debug for project z_GeeksForGeeks.org_SegmentTree-Range Minimum Query ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "z_GeeksForGeeks.org_SegmentTree-Range Minimum Query.exe" main.o 
+
+10:47:16 Build Finished (took 1s.678ms)
+

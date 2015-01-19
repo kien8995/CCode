@@ -1,0 +1,19 @@
+18:45:00 **** Incremental Build of configuration Debug for project SPOJ-Problem_BST-BinarySearchTree ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In constructor 'BinarySearchTree::BinarySearchTree(int)':
+..\main.cpp:27:35: error: incompatible types in assignment of 'int*' to 'int [0]'
+..\main.cpp:30:15: warning: converting to non-pointer type 'int' from NULL [-Wconversion-null]
+..\main.cpp: In member function 'void BinarySearchTree::insertElement(int)':
+..\main.cpp:49:30: warning: NULL used in arithmetic [-Wpointer-arith]
+..\main.cpp: In member function 'void BinarySearchTree::searchElement(int)':
+..\main.cpp:89:30: warning: NULL used in arithmetic [-Wpointer-arith]
+..\main.cpp: In member function 'void BinarySearchTree::inOrder(int)':
+..\main.cpp:119:29: warning: NULL used in arithmetic [-Wpointer-arith]
+..\main.cpp: In member function 'void BinarySearchTree::postOrder(int)':
+..\main.cpp:129:29: warning: NULL used in arithmetic [-Wpointer-arith]
+..\main.cpp: In member function 'void BinarySearchTree::preOrder(int)':
+..\main.cpp:139:29: warning: NULL used in arithmetic [-Wpointer-arith]
+
+18:45:01 Build Finished (took 702ms)
+

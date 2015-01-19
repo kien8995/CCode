@@ -1,0 +1,7 @@
+21:22:39 **** Incremental Build of configuration Debug for project $-uHunt-$-Solver2015-$-Session 1-1585 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "$-uHunt-$-Solver2015-$-Session 1-1585.exe" main.o 
+
+21:22:41 Build Finished (took 1s.620ms)
+

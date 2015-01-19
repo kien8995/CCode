@@ -1,0 +1,7 @@
+15:42:33 **** Incremental Build of configuration Debug for project STTT&LT2_Next-SoSatSauCungChuSo ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o STTT&LT2_Next-SoSatSauCungChuSo.exe main.o 
+
+15:42:34 Build Finished (took 1s.922ms)
+

@@ -1,0 +1,11 @@
+14:42:10 **** Incremental Build of configuration Debug for project z_BOGOTOBOGO.com_LinkList-head of the list is a global pointer ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'Node* searchNode2(int)':
+..\main.cpp:176:8: warning: variable 'pre' set but not used [-Wunused-but-set-variable]
+..\main.cpp: In function 'Node* searchNode(int)':
+..\main.cpp:165:1: warning: control reaches end of non-void function [-Wreturn-type]
+g++ -o "z_BOGOTOBOGO.com_LinkList-head of the list is a global pointer.exe" main.o 
+
+14:42:12 Build Finished (took 2s.12ms)
+

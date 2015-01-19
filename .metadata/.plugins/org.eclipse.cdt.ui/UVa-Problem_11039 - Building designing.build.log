@@ -1,0 +1,7 @@
+21:42:07 **** Incremental Build of configuration Debug for project UVa-Problem_11039 - Building designing ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "UVa-Problem_11039 - Building designing.exe" main.o 
+
+21:42:10 Build Finished (took 2s.886ms)
+

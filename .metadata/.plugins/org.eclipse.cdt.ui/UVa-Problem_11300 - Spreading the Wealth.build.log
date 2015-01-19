@@ -1,0 +1,7 @@
+15:30:27 **** Incremental Build of configuration Debug for project UVa-Problem_11300 - Spreading the Wealth ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "UVa-Problem_11300 - Spreading the Wealth.exe" main.o 
+
+15:30:29 Build Finished (took 1s.731ms)
+

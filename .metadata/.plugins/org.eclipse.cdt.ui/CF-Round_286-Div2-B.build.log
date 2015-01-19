@@ -1,0 +1,7 @@
+22:08:10 **** Incremental Build of configuration Debug for project CF-Round_286-Div2-B ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o CF-Round_286-Div2-B.exe main.o 
+
+22:08:13 Build Finished (took 2s.928ms)
+

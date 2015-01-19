@@ -1,0 +1,7 @@
+14:51:38 **** Rebuild of configuration Debug for project z_e-Maxx.ru-Binary_Pow ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o z_e-Maxx.ru-Binary_Pow.exe main.o 
+
+14:51:39 Build Finished (took 889ms)
+

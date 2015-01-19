@@ -1,0 +1,7 @@
+17:03:52 **** Incremental Build of configuration Debug for project z_LMH_DoThi-BFS ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o z_LMH_DoThi-BFS.exe main.o 
+
+17:03:54 Build Finished (took 1s.794ms)
+
