@@ -35,19 +35,31 @@ void merge(int* input, int p, int r)
 	int temp[r - p + 1];
 // Merge in sorted form the 2 arrays
 	while (i2 <= mid && i3 <= r)
+	{
 		if (input[i2] < input[i3])
+		{
 			temp[i1++] = input[i2++];
+		}
 		else
+		{
 			temp[i1++] = input[i3++];
+		}
+	}
 // Merge the remaining elements in left array
 	while (i2 <= mid)
+	{
 		temp[i1++] = input[i2++];
+	}
 // Merge the remaining elements in right array
 	while (i3 <= r)
+	{
 		temp[i1++] = input[i3++];
+	}
 // Move from temp array to master array
 	for (int i = p; i <= r; i++)
+	{
 		input[i] = temp[i - p];
+	}
 }
 void merge_sort(int* input, int p, int r)
 {

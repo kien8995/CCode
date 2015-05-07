@@ -40,8 +40,8 @@ void permute(char *a, int i, int n)
 /* Driver program to test above functions */
 int main()
 {
-	char a[] = "ABC";
-	permute(a, 0, 2);
+	char a[] = "ABCDE";
+	permute(a, 0, 4);
 	getchar();
 	return 0;
 }
